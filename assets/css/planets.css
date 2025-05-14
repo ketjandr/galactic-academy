@@ -1,0 +1,438 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+}
+
+h3 {
+  color: #FFFFFF;
+
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.mission-banner {
+  min-height: 680px;
+  margin-top: 80px;
+  background: url("../images/moon-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+  text-align: center;
+}
+
+.mission-banner#moon-bg {
+  background: url("../images/moon-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mission-banner#mars-bg {
+  background: url("../images/mars-launch-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mission-banner#venus-bg {
+  background: url("../images/venus-cloud-city.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mission-banner#europa-bg {
+  background: url("../images/europa-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mission-banner h1 {
+  font-size: 100px;
+}
+
+.mission-banner p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+}
+
+.mission-banner .inner-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mission-banner h1 {
+  animation: float 0.5s ease-in-out;
+}
+
+.mission-banner p {
+  animation: float-long 0.8s ease-in-out;
+}
+
+.company-overview {
+  text-align: center;
+  padding: 80px 200px;
+}
+
+.company-overview p {
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+@keyframes float {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes float-long {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  37.5% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+.planet-container {
+  padding: 50px 150px;
+  display: flex;
+}
+
+.planet-container .image-box {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.planet-container .image-box img {
+  width: 100%
+}
+
+.planet-container .content-box {
+  flex: 4;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.planet-container .content-box h1 {
+  padding-bottom: 40px;
+}
+
+.stat-box {
+  display: flex;
+}
+
+.stat-box h2 {
+  color: #FFFFFF;
+  font-size: 16px;
+  flex: 1;
+}
+
+.stat-box h2.measurement {
+  text-align: right;
+}
+
+.content-box span {
+  height: 2px;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #5A5A5A;
+  border-radius: 0px;
+  display: block;
+  z-index: 1;
+  transform: scaleY(0.5);
+}
+
+.starlink-container {
+  min-height: 600px;
+  background: url("../images/starlink-mission-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 50px 50px 50px;
+
+}
+
+.starlink-container#artemis-bg {
+  background: url("../images/artemis-program-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.starlink-container#dragon-bg {
+  background: url("../images/dragon-mars-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.starlink-container#mariner-bg {
+  background: url("../images/venus-metropolitan.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.starlink-container#clipper-bg {
+  background: url("../images/europa-ice-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.starlink-container .inner-container {
+  float: right;
+  width: 40%;
+}
+
+
+.starlink-container h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+
+}
+
+.starlink-container p {
+  padding: 20px 0;
+  padding-bottom: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+
+.starlink-container h3 {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .company-overview {
+    padding: 80px 150px;
+  }
+
+  .company-overview p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .planet-container {
+    padding: 50px 100px;
+  }
+
+  .stat-box h2 {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .starlink-container {
+    min-height: 500px;
+    padding: 100px 50px 0px 50px;
+  }
+
+  .starlink-container .inner-container {
+    width: 50%;
+  }
+
+  .planet-container {
+    padding: 50px 50px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 860px) {
+
+  .mission-banner {
+    margin-top: 60px;
+    min-height: 540px;
+  }
+
+  .mission-banner h1 {
+    font-size: 80px;
+  }
+
+  .mission-banner p {
+    font-size: 24px;
+  }
+
+  .mission-banner .inner-container {
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+  }
+
+  .company-overview {
+    padding: 80px 100px;
+  }
+
+  .company-overview p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .planet-container {
+    display: block;
+  }
+
+  .planet-container .image-box img {
+    width: 70%;
+    margin-bottom: 60px;
+  }
+
+
+
+  .planet-container .content-box {
+    margin: 0;
+  }
+
+  .stat-box h2 {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .mission-banner h1 {
+    font-size: 72px;
+  }
+
+  .mission-banner p {
+    font-size: 22px;
+  }
+
+  .starlink-container {
+    background-position: -250px -50px;
+    background-size: 150%;
+    min-height: 400px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+
+  }
+
+  .starlink-container .inner-container {
+    width: 65%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .company-overview {
+    padding: 80px 50px;
+  }
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 200%;
+    min-height: 430px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  .starlink-container h3 {
+    font-size: 14px;
+    text-align: center;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .starlink-container .btn-container {
+    text-align: center;
+  }
+
+  .starlink-container .inner-container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .company-overview {
+    padding: 80px 30px;
+  }
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 240%;
+    min-height: 550px;
+    padding: 40px 50px 0px 50px;
+  }
+
+  .planet-container .image-box img {
+    width: 90%;
+  }
+
+}

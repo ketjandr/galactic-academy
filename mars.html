@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="description" content="Galactic Academy is a advocacy and research organization for the
+    scientific revolution of space exploration and colonization.">
+    <meta name="author" content="Kenzo Eugenio Tjandra">
+    <title>Mars | Galactic Academy</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/galactic-academy-icon.png">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
+    <link rel="stylesheet" href="assets/css/planets.css">
+    <link rel="stylesheet" href="assets/css/observer.css">
+    <script src="https://kit.fontawesome.com/c65eeb7523.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <input type="checkbox" id="check" onclick="validate()">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt="" id="nav-img"></a>
+        <ul id="nav-ul">
+          <li><a href="about.html">About</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="spaceflight.html">Spaceflight</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+
+    <div class="mission-banner" id="mars-bg">
+      <div class="inner-container">
+        <h1 class="fade-text">MARS</h1>
+        <p class="fade-text">The Red Planet</p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        $(".fade-text").css("opacity", 1 - $(window).scrollTop() / 250);
+      });
+    </script>
+
+    <div class="company-overview section-parent">
+      <h1 class="slide-in from-left">OVERVIEW</h1>
+      <p class="slide-in from-left">Mars is the fourth planet closest to the sun and is the terrestrial planet closest to
+        the asteroid belt intersecting the orbit of Jupiter. Mars possesses a rocky and cold surface below its thin yet hazy
+        atmosphere. It is famously remarked as the Red Planet since its surface material consists of a high concentration of
+        iron oxide, producing a blood red hue due to the chemical oxidation with the planet’s atmospheric elements. Mars
+        possesses a rich amount of polar ice caps and clouds in the atmosphere, signifying a possibility for the presence
+        of water and therefore life. However, its thin and toxic atmosphere prone to solar wind radiations cause it nearly
+        impossible for life to settle within the harsh conditions of the planet. Humans are highly interested in terraforming
+        Mars as it is one of the closest planets to Earth and the plausible presence of liquid water.</p>
+
+    </div>
+
+    <div class="planet-container section-parent">
+      <div class="image-box slide-in from-left">
+        <img src="assets/images/mars-planet.png" alt="">
+      </div>
+
+      <div class="content-box slide-in from-right">
+        <h1>PLANET EVALUATION</h1>
+        <div class="stat-box">
+          <h2>DISTANCE TO EARTH</h2>
+          <h2 class="measurement">55,000,000 KM</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>DIAMETER</h2>
+          <h2 class="measurement">6,779 KM</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>OXYGEN LEVEL</h2>
+          <h2 class="measurement">0.16%</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>GRAVITY</h2>
+          <h2 class="measurement">3.71 m/s²</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>DAY LENGTH</h2>
+          <h2 class="measurement">1 Earth Day</h2>
+        </div>
+        <span></span>
+
+
+      </div>
+
+    </div>
+
+    <div class="starlink-container section-parent" id="dragon-bg">
+      <div class="inner-container">
+        <h3 class="slide-in from-right">SPACE-X MARS MISSION</h3>
+        <h1 class="slide-in from-right">RED DRAGON PROGRAM</h1>
+        <p class="slide-in from-right">Space-X’s mission to Mars, known as the Red Dragon Program, was indicated to test
+          techniques and technology to conduct manned missions to the planet itself. This program aims to deploy
+          space vehicles such as rovers and artificial satellites such that a pathway for future manned missions
+          are able to be conducted with maximum efficiency. However, the development for the Red Dragon was halted
+          and the space company moved on with the execution of Starlink missions.</p>
+        <div class="btn-container slide-in from-right">
+          <a href="https://www.youtube.com/watch?v=xx8A4jmz85c" class="hyper-btn" target="_blank">WATCH</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="footer">
+      <div class="section-1">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt=""></a>
+        </div>
+        <div class="contact-section">
+          <p><b>Contact Links</b></p>
+          <div class="contact-links">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="mailto:support@galacticacademy.com"><i class="fas fa-envelope-square" id="last-item"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <span class="footer-line"></span>
+      <div class="section-2">
+        <div class="copyright">
+          <p>Copyright &copy; 2020 | Galactic Academy. All Rights Reserved. </p>
+          <script type="text/javascript">
+          </script>
+        </div>
+        <div class="address">
+          <p>Galactic Academy HQ</p>
+          <p>Jalan Meruya Utara No. 71</p>
+          <p>Jakarta Barat 11510</p>
+          <p>Indonesia</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--JavaScript-->
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/observer.js"></script>
+
+
+
+
+
+  </body>
+</html>

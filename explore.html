@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="description" content="Galactic Academy is a advocacy and research organization for the
+    scientific revolution of space exploration and colonization.">
+    <meta name="author" content="Kenzo Eugenio Tjandra">
+    <title> Explore | Galactic Academy</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/galactic-academy-icon.png">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
+    <link rel="stylesheet" href="assets/css/explore.css">
+    <link rel="stylesheet" href="assets/css/observer.css">
+    <script src="https://kit.fontawesome.com/c65eeb7523.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <input type="checkbox" id="check" onclick="validate()">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt="" id="nav-img"></a>
+        <ul id="nav-ul">
+          <li><a href="about.html">About</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="spaceflight.html">Spaceflight</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+
+    <div class="mission-banner">
+      <div class="inner-container">
+        <h1 class="fade-text">EXPLORE</h1>
+        <p class="fade-text">Discovering the Universe</p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        $(".fade-text").css("opacity", 1 - $(window).scrollTop() / 250);
+      });
+    </script>
+
+    <div class="terra-container">
+      <h1 class="main-title slide-in from-bottom">TERRAFORMING A PLANET</h1>
+      <input type="radio" class="profile" checked id="" name="bright">
+      <input type="radio" class="settings" id="" name="bright">
+      <input type="radio" class="posts" id="" name="bright">
+      <input type="radio" class="books" id="" name="bright">
+      <div class="head slide-in from-bottom">
+        <ul class="nav">
+          <li class="st st1 active">
+            <h2 class="inner">Phase 1</h2>
+          </li>
+          <li class="st st2">
+            <h2 class="inner">Phase 2</h2>
+          </li>
+          <li class="st st3">
+            <h2 class="inner">Phase 3</h2>
+          </li>
+          <li class="st st4">
+            <h2 class="inner">Phase 4</h2>
+          </li>
+        </ul>
+
+        <div class="line">
+          <span></span>
+
+        </div>
+      </div>
+
+      <div class="content slide-in from-bottom">
+        <section class="profile-section">
+          <h1>PHASE 1: RESEARCH AND INVESTIGATION</h1>
+          <p>Research and investigation involves immensely analysing a potential colonized planet, where space vehicles
+            such as artificial satellites and mechanical rovers are deployed within the vicinity of the planet.
+            These vehicles implement scientific instruments to gather crucial data about the planet’s temperature,
+            elemental composition, atmospheric pressure, gravitational acceleration, etc. Once the required information
+            about the planet has been obtained, scientists are able to install various strategies to construct a habitable
+            environment and ultimately prepare for extraterrestrial manned missions.</p>
+        </section>
+        <section class="account-section">
+          <h1>PHASE 2: ENVIRONMENTAL ADJUSTMENTS</h1>
+          <p>Crucial information about the planets would allow significant adjustments done to the planet’s environment such
+            that its surrounding will become more Earth-like. This includes adjusting the temperature either by cooling it
+            with comets or heating it with the greenhouse effect, creating oxygen by nurturing soils and planting trees,
+            and generating water by melting polar ice caps. A controlled environment although would inevitably consume a
+            lot of resources and time to successfully achieve, will ease the possibility of increased manned missions to
+            the planet to terraform the planet from its inside.</p>
+        </section>
+        <section class="post-section">
+          <h1>PHASE 3: MANNED MISSIONS</h1>
+          <p>Conducting manned missions to the environmental territory of the planet once its factors have been controlled
+            will further improve the progress towards a true human colony. These manned missions will deploy experienced
+            astronauts which are competently trained to survive within the planet given its unorthodox conditions. With
+            the deployment of humans, the process of environmental adjustments could be fully included whilst also
+            constructing spaces of living such as domes and life-bubbles. Most importantly, by involving the direct
+            descent of human astronauts into the vicinity, experimental procedures to prepare for an authentic human
+            colony could be easily administered.</p>
+        </section>
+        <section class="advanced-section">
+          <h1>PHASE 4: HUMAN COLONIZATION</h1>
+          <p>Once the planet’s environment is suitable for life and spaces of living has been constructed, domestic
+            flights towards these extraterrestrial destinations would fully complete the process of terraformation.
+            Humans are able to populate and reproduce within the vicinity of the planet as well as implement a governmental
+            system to organize the apprehended societies. Services such as healthcare and education would be widely available,
+            resulting in an advanced civilization outside the Earth. Human colonization would ultimately mark the successful
+            efforts of planet terraformation.</p>
+        </section>
+
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script type="text/javascript">
+        $(".st1").click(function() {
+          $(".profile").prop("checked",
+        true);
+        })
+        $(".st2").click(function() {
+          $(".settings").prop("checked",
+        true);
+        })
+        $(".st3").click(function() {
+          $(".posts").prop("checked",
+        true);
+        })
+        $(".st4").click(function() {
+          $(".books").prop("checked",
+        true);
+        })
+        $("ul li").click(function() {
+          $(this).addClass("active").siblings().removeClass("active");
+        })
+      </script>
+
+    </div>
+
+    <div class="starlink-container section-parent">
+      <div class="inner-container">
+        <h3 class="slide-in from-right">REVOLUTIONARY MISSION</h3>
+        <h1 class="slide-in from-right">DYSON SPHERE</h1>
+        <p class="slide-in from-right">Discover how harnessing the energy exerted by the sun is theoretically possible by
+          humanity’s efforts of constructing a Dyson Sphere. This colossal megastructure encompasses the sun to capture most
+          of its energy, consisting of solar collectors which directly absorb the potential energy from the sun’s rays.
+          An advanced civilization would highly benefit from the energy output of a star, where a star the size of the sun
+          would produce enough energy for the human civilization to last for 1 million years within 1 second. </p>
+        <div class="btn-container slide-in from-right">
+          <a href="https://www.youtube.com/watch?v=pP44EPBMb8A" class="hyper-btn" target="_blank">WATCH</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="starlink-container section-parent float-left-con" id="mars-rover">
+      <div class="inner-container">
+        <h3 class="slide-in from-left">UPCOMING MISSION</h3>
+        <h1 class="slide-in from-left">PERSEVERANCE ROVER</h1>
+        <p class="slide-in from-left">The Perseverance rover is a prominent component of NASA’s Mars Mission, as it is constructed
+          to be deployed on Mars by 2020. Perseverance was launched with the Atlas V-541 rocket from Launch Site Complex 41 at
+          Cape Canaveral, Florida. It is deployed within the Martian soil to mainly seek signs of ancient life and collect samples
+          of the Martian rock and soil to be brought back to Earth. The rover will reside upon the Red Planet for roughly 687 Earth
+          days, which equates to approximately 1 Mars year.</p>
+        <div class="btn-container slide-in from-left">
+          <a href="https://www.youtube.com/watch?v=JIB3JbIIbPU" class="hyper-btn" target="_blank">WATCH</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="starlink-container section-parent" id="artemis-program">
+      <div class="inner-container">
+        <h3 class="slide-in from-right">GOVERNMENT PROGRAM</h3>
+        <h1 class="slide-in from-right">ARTEMIS PROGRAM</h1>
+        <p class="slide-in from-right">NASA’s Artemis Program aims to land the first woman and the next man into the moon, following the
+          previously conducted Apollo Program. This program is constructed to implement modern aerospace technology to explore
+          and investigate the lunar surface in hopes of using it as a space base for future manned Mars missions. NASA is
+          implementing the Space Launch System rocket, one of the most powerful reusable rockets known to mankind.</p>
+        <div class="btn-container slide-in from-right">
+          <a href="https://www.youtube.com/watch?v=_T8cn2J13-4" class="hyper-btn" target="_blank">WATCH</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="starlink-container section-parent float-left-con" id="kardashev-scale">
+      <div class="inner-container">
+        <h3 class="slide-in from-left">TECHNOLOGICAL PHILOSOPHY</h3>
+        <h1 class="slide-in from-left">KARDASHEV SCALE</h1>
+        <p class="slide-in from-left">Explore how advanced civilizations are arranged with the Kardashev Scale, a technological
+          philosophy which measures a civilization’s technological development based on power consumption, energy production,
+          and innovative extensions. As proposed by Soviet cosmonaut Nikolai Kardashev in 1964, the scale itself possesses 7
+          distinct stages of civilization advancements, where each stage possesses a power consumption which exponentially
+          rises as the scale moves on. </p>
+        <div class="btn-container slide-in from-left">
+          <a href="https://www.youtube.com/watch?v=rhFK5_Nx9xY&t=59s" class="hyper-btn" target="_blank">WATCH</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <div class="section-1">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt=""></a>
+        </div>
+        <div class="contact-section">
+          <p><b>Contact Links</b></p>
+          <div class="contact-links">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="mailto:support@galacticacademy.com"><i class="fas fa-envelope-square" id="last-item"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <span class="footer-line"></span>
+      <div class="section-2">
+        <div class="copyright">
+          <p>Copyright &copy; 2020 | Galactic Academy. All Rights Reserved. </p>
+          <script type="text/javascript">
+          </script>
+        </div>
+        <div class="address">
+          <p>Galactic Academy HQ</p>
+          <p>Jalan Meruya Utara No. 71</p>
+          <p>Jakarta Barat 11510</p>
+          <p>Indonesia</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--JavaScript-->
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/observer.js"></script>
+
+
+
+
+
+  </body>
+</html>

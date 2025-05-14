@@ -1,0 +1,668 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.mission-banner {
+  min-height: 680px;
+  margin-top: 80px;
+  background: url("../images/rocket-curve.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+  text-align: center;
+}
+
+.mission-banner h1 {
+  font-size: 100px;
+}
+
+.mission-banner p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+}
+
+.mission-banner .inner-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mission-thesis {
+  min-height: 400px;
+}
+
+.mission-thesis {
+  min-height: 680px;
+  background: url("../images/mars-surface.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+  text-align: center;
+}
+
+.mission-banner h1 {
+  animation: float 0.5s ease-in-out;
+}
+
+.mission-banner p {
+  animation: float-long 0.8s ease-in-out;
+}
+
+@keyframes float {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes float-long {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  37.5% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+.mission-thesis h1 {
+  font-size: 52px;
+  padding-top: 100px;
+
+}
+
+.mission-thesis p {
+  font-size: 18px;
+  padding: 40px 0;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stats-counters {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.stats-counters .container {
+  padding: 0 0px;
+}
+
+.stats-counters .counter {
+  font-size: 150px;
+  text-align: center;
+}
+
+.stats-counters .container p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.stats-counters #percentage::after {
+  content: "%";
+}
+
+.future-problems {
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.future-problems .container {
+  background-color: #444444;
+  width: 30%;
+  margin: 0 1%;
+}
+
+.future-problems .info-section {
+  height: 45%;
+  text-align: center;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.future-problems .info-section p {
+  line-height: 25px;
+}
+
+.future-problems .inner-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.future-problems .section-1 .img-box {
+  background: url("../images/overpopulation.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55%;
+}
+
+.future-problems .section-2 .img-box {
+  background: url("../images/resource-depletion.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55%;
+}
+
+.future-problems .section-3 .img-box {
+  background: url("../images/unsustainable-energy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55%;
+}
+
+span.line {
+  height: 4px;
+  width: 40px;
+  margin: 5px 0;
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.space-aid {
+  display: flex;
+}
+
+.space-aid .img-box,
+.space-aid .container {
+  flex: 10;
+}
+
+.space-aid .img-box {
+  background: url("../images/galactic-rings.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.space-aid .container {
+  padding: 100px 0;
+  padding-right: 80px;
+}
+
+.space-aid .container p {
+  padding: 20px 0 50px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.space-aid .img-box img {
+  width: 100%;
+}
+
+.carousel-container {
+  position: relative;
+  height: 620px;
+  margin-bottom: 100px;
+}
+
+.slides {
+  position: absolute;
+  width: 400%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: 1s ease;
+}
+
+.slide {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.slide-container {
+  padding: 5% 0;
+  display: flex;
+  height: 100%;
+}
+
+.slide-container .text-container {
+  flex: 4;
+  padding: 0 50px;
+}
+
+.slide-container .text-container p {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.slide-container .text-container h3 {
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+
+.slide-container .image-container {
+  flex: 3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-container .image-container img {
+  width: 80%;
+  min-width: 376px;
+}
+
+.carousel-container .arrows {
+  position: absolute;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 32px;
+  color: #FFFFFF;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+.carousel-container .arrows:hover {
+  opacity: 1;
+}
+
+.carousel-container .arrows:hover {
+  cursor: pointer;
+}
+
+.carousel-container .prev-btn {
+  bottom: 1%;
+  left: 3%;
+}
+
+.carousel-container .next-btn {
+  bottom: 1%;
+  right: 3%;
+}
+
+.carousel-container .dots {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.carousel-container .dots span.dot-active {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  margin: 0 6px;
+  background-color: #555555;
+  display: inline-block;
+  transition: 0.4s linear;
+}
+
+.carousel-container .dots span.dot-inactive {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  margin: 0 6px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  transition: 0.4s linear;
+}
+
+.dots span.dot-inactive:hover {
+  background-color: #555555;
+  cursor: pointer;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .mission-thesis p {
+    width: 80%;
+  }
+
+  .mission-thesis h1 {
+    padding-top: 30px;
+  }
+
+  .stats-counters .counter {
+    font-size: 120px;
+  }
+
+  .stats-counters .container p {
+    font-size: 14px;
+  }
+
+  .future-problems .container h1 {
+    font-size: 32px;
+  }
+
+  .future-problems .container p {
+    font-size: 14px;
+  }
+
+  .space-aid .container h1 {
+    font-size: 36px;
+  }
+
+  .space-aid .container p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .space-aid .container {
+    padding-right: 50px;
+  }
+
+  .slide-container .image-container {
+    height: 80%;
+    margin: auto 0;
+  }
+
+  .slide-container .text-container p {
+    font-size: 14px;
+  }
+
+  .slide-container .text-container h3 {
+    font-size: 16px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 860px) {
+
+  .mission-banner {
+    margin-top: 60px;
+    min-height: 540px;
+
+  }
+
+  .mission-banner h1 {
+    font-size: 80px;
+  }
+
+  .mission-banner p {
+    font-size: 24px;
+  }
+
+  .mission-banner .inner-container {
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+  }
+
+  .mission-thesis {
+    min-height: 580px;
+    padding: 150px 50px 50px 50px;
+  }
+
+  .mission-thesis h1 {
+    padding-top: 50px;
+  }
+
+  .mission-thesis h1 {
+    font-size: 42px;
+  }
+
+  .mission-thesis p {
+    font-size: 14px;
+  }
+
+  .future-problems {
+    display: block;
+  }
+
+  .future-problems .container {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #000000
+  }
+
+  .future-problems .section-2 {
+    flex-direction: row-reverse;
+  }
+
+  .future-problems .info-section {
+    height: 100%;
+    text-align: center;
+    padding: 0px 15px;
+    position: relative;
+    width: 50%;
+  }
+
+  .future-problems .container .img-box {
+    height: 50vh;
+    width: 50%;
+  }
+
+  .future-problems .inner-container {
+    margin: 0;
+    position: static;
+    top: 0%;
+    left: 0%;
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    width: 100%;
+  }
+
+  .space-aid {
+    display: block;
+  }
+
+  .space-aid .img-box {
+    display: none;
+  }
+
+  .space-aid .container {
+    text-align: center;
+    padding: 50px 50px;
+
+  }
+
+  .slide-container .image-container img {
+    width: 80%;
+    min-width: 306px;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+  .mission-banner h1 {
+    font-size: 72px;
+  }
+
+  .mission-banner p {
+    font-size: 22px;
+  }
+
+  .mission-thesis p {
+    width: 100%;
+  }
+
+  .mission-thesis {
+    min-height: 480px;
+    padding: 30px 50px 50px 50px;
+  }
+
+  .stats-counters .counter {
+    font-size: 100px;
+  }
+
+  .stats-counters .container p {
+    font-size: 12px;
+    width: 70%;
+  }
+
+  .space-aid .container {
+    text-align: center;
+    padding: 50px 30px;
+
+  }
+
+  .slide-container {
+    display: block;
+  }
+
+  .carousel-container {
+    min-height: 900px;
+  }
+
+  .carousel-container .prev-btn {
+    bottom: -6%;
+    left: 3%;
+  }
+
+  .carousel-container .next-btn {
+    bottom: -6%;
+    right: 3%;
+  }
+
+  .slide-container .image-container {
+    height: 45%;
+    margin: auto 0;
+    padding-top: 30px;
+  }
+
+  .slide-container .text-container {
+    text-align: center;
+  }
+
+  .slide-container .image-container img {
+    height: 100%;
+    width: auto;
+    min-width: 0;
+  }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .future-problems .img-box {
+    display: none;
+  }
+
+  .future-problems .info-section {
+    width: 100%;
+  }
+
+  .future-problems .container {
+    min-height: 250px;
+  }
+
+  .stats-counters {
+    padding: 50px 0;
+  }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .stats-counters .counter {
+    font-size: 70px;
+  }
+
+  .stats-counters .container p {
+    font-size: 11px;
+    width: 70%;
+  }
+
+  .slide-container .image-container {
+    height: 40%;
+    margin: auto 0;
+    padding-top: 30px;
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+  .carousel-container {
+    min-height: 1100px;
+  }
+
+  .slide-container .image-container img {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+
+
+}

@@ -1,0 +1,537 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+}
+
+h3 {
+  color: #FFFFFF;
+
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.mission-banner {
+  min-height: 680px;
+  margin-top: 80px;
+  background: url("../images/astronaut-hover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+  text-align: center;
+}
+
+.mission-banner h1 {
+  font-size: 100px;
+}
+
+.mission-banner p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+}
+
+.mission-banner .inner-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mission-banner h1 {
+  animation: float 0.5s ease-in-out;
+}
+
+.mission-banner p {
+  animation: float-long 0.8s ease-in-out;
+}
+
+@keyframes float {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes float-long {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  37.5% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+.starlink-container {
+  min-height: 700px;
+  background: url("../images/dyson-sphere-section.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 180px 50px 50px 50px;
+
+}
+
+.starlink-container#mars-rover {
+  background: url("../images/perseverence-rover-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.starlink-container#artemis-program {
+  background: url("../images/artemis-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.starlink-container#kardashev-scale {
+  background: url("../images/kardashev-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.starlink-container .inner-container {
+  float: right;
+  width: 40%;
+}
+
+.float-left-con .inner-container {
+  float: left;
+}
+
+
+.starlink-container h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+
+}
+
+.starlink-container p {
+  padding: 20px 0;
+  padding-bottom: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+
+.starlink-container h3 {
+  padding-bottom: 10px;
+}
+
+.terra-container {
+  margin: 100px auto;
+  width: 80vw;
+  min-height: 500px;
+}
+
+.terra-container h2 {
+  color: #FFFFFF;
+}
+
+.terra-container input {
+  display: none;
+  position: absolute;
+}
+
+.terra-container .head {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  margin-top: 60px;
+  animation: trans 0.7s linear forwards;
+}
+
+.terra-container ul.nav {
+  padding-top: 15px;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.terra-container ul.nav li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: #AAAAAA;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  height: 60px;
+  position: relative;
+}
+
+.terra-container ul.nav li::before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  border: 2px solid #AAAAAA;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.terra-container ul.nav li:hover::before {
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+}
+
+.terra-container ul.nav li .inner {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.terra-container ul.nav li.active,
+.terra-container ul.nav li:hover {
+  color: #444444;
+}
+
+.terra-container ul.nav li::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  margin: auto;
+  border: 7px solid #FFFFFF;
+  margin-top: 40px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+.terra-container ul.nav li:hover::after,
+.terra-container ul.nav li.active::after {
+  background: #494949;
+}
+
+.terra-container .line {
+  width: 76%;
+  margin: auto;
+  background: #EEEEEE;
+  height: 7px;
+  position: absolute;
+  left: 11.5%;
+  top: 52px;
+  z-index: 1;
+  border-radius: 50px;
+}
+
+.terra-container .line span {
+  content: '';
+  width: 2%;
+  height: 100%;
+  background-image: linear-gradient(to right, #8C8A8A 0%, #403F3F 100%);
+  position: absolute;
+  z-index: 2;
+  border-radius: 50px;
+  transition: all 0.8s ease;
+}
+
+.terra-container .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.terra-container section {
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.terra-container h1,
+.terra-container p {
+  text-align: center;
+}
+
+.terra-container p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.terra-container h1.main-title {
+  font-size: 45px;
+}
+
+.terra-container .content h1 {
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+
+.profile:checked ~ .head .nav li.st1::before,
+
+.settings:checked ~ .head .nav li.st1::before,
+.settings:checked ~ .head .nav li.st2::before,
+
+.posts:checked ~ .head .nav li.st1::before,
+.posts:checked ~ .head .nav li.st2::before,
+.posts:checked ~ .head .nav li.st3::before,
+
+.books:checked ~ .head .nav li.st1::before,
+.books:checked ~ .head .nav li.st2::before,
+.books:checked ~ .head .nav li.st3::before,
+.books:checked ~ .head .nav li.st4::before {
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.settings:checked ~ .head .line span {
+  width: 35%;
+}
+
+.posts:checked ~ .head .line span {
+  width: 68%;
+}
+
+.books:checked ~ .head .line span {
+  width: 100%;
+}
+
+.profile-section,
+.account-section,
+.post-section,
+.advanced-section {
+  transform: scale(0);
+  transform-origin: center bottom;
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.profile:checked ~ .content .profile-section,
+.settings:checked ~  .content .account-section,
+.posts:checked ~  .content .post-section,
+.books:checked ~  .content .advanced-section {
+  display: block;
+  transform: scale(1);
+  transform-origin: bottom;
+  z-index: 2;
+}
+
+@keyframes anim {
+
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(20px);
+  }
+
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+
+  .terra-container {
+    margin: 100px auto;
+    width: 100vw;
+    min-height: 600px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .starlink-container {
+    min-height: 600px;
+    padding: 150px 50px 0px 50px;
+  }
+
+  .starlink-container .inner-container {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 860px) {
+
+  .mission-banner {
+    margin-top: 60px;
+    min-height: 540px;
+  }
+
+  .mission-banner h1 {
+    font-size: 80px;
+  }
+
+  .mission-banner p {
+    font-size: 24px;
+  }
+
+  .mission-banner .inner-container {
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+  }
+
+  .terra-container h1.main-title {
+    font-size: 40px
+  }
+
+  .terra-container .content h1 {
+    font-size: 28px;
+  }
+
+  .terra-container .content p {
+    font-size: 14px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .mission-banner h1 {
+    font-size: 72px;
+  }
+
+  .mission-banner p {
+    font-size: 22px;
+  }
+
+  .starlink-container {
+    background-position: -250px -50px;
+    background-size: 150%;
+    min-height: 480px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+
+  }
+
+  .starlink-container .inner-container {
+    width: 65%;
+  }
+
+  .terra-container {
+    margin: 80px auto;
+    width: 100vw;
+    min-height: 600px;
+  }
+
+  .terra-container .content section {
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 200%;
+    min-height: 460px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  .starlink-container h3 {
+    font-size: 14px;
+    text-align: center;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .starlink-container .btn-container {
+    text-align: center;
+  }
+
+  .starlink-container .inner-container {
+    width: 100%;
+  }
+
+  .terra-container {
+    width: 100vw;
+    min-height: 680px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 240%;
+    min-height: 550px;
+    padding: 40px 50px 0px 50px;
+  }
+
+  .terra-container {
+    min-height: 700px;
+  }
+
+}

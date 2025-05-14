@@ -1,0 +1,48 @@
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.from-left {
+  transform: translateX(-10%)
+}
+
+.from-right {
+  transform: translateX(10%)
+}
+
+.from-bottom {
+  transform: translateY(10%)
+}
+
+.from-top {
+  transform: translateY(-10%)
+}
+
+.from-left,
+.from-right,
+.from-bottom,
+.from-top {
+  transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.from-bottom.appear,
+.from-top.appear {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.section-parent {
+  overflow: hidden;
+}

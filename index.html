@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="description" content="Galactic Academy is a advocacy and research organization for the
+    scientific revolution of space exploration and colonization.">
+    <meta name="author" content="Kenzo Eugenio Tjandra">
+    <title>Galactic Academy</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/galactic-academy-icon.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/observer.css">
+    <script src="https://kit.fontawesome.com/c65eeb7523.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <input type="checkbox" id="check" onclick="validate()">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt="" id="nav-img"></a>
+        <ul id="nav-ul">
+          <li><a href="about.html">About</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="spaceflight.html">Spaceflight</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+
+    <div class="slideshow-container">
+
+      <div class="image-container">
+        <img src="assets/images/space-banner.jpg" alt="" class="image fade">
+      </div>
+      <div class="image-container">
+        <img src="assets/images/moon-banner.jpg" alt="" class="image fade">
+      </div>
+      <div class="image-container">
+        <img src="assets/images/dyson-sphere-banner.jpg" alt="" class="image fade">
+      </div>
+      <div class="image-container">
+        <img src="assets/images/mega-skyhook-banner.jpg" alt="" class="image fade">
+      </div>
+      <div class="image-container">
+        <img src="assets/images/landsat-9-banner.jpg" alt="" class="image fade">
+      </div>
+      <div class="image-container">
+        <img src="assets/images/nightflyer-banner.jpg" alt="" class="image fade">
+      </div>
+
+      <a class="prev-btn" onclick="newSlide(-1)">&#10094;</a>
+      <a class="next-btn" onclick="newSlide(1)">&#10095;</a>
+
+      <h1 class="text-description" id="text-des">FALCON HEAVY LAUNCH</h1>
+      <h3 class="text-description-child" id="text-des-child">THE WORLD'S MOST POWERFUL SPACECRAFT</h3>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+
+
+
+    </div>
+
+    <div class="about-us section-parent">
+      <div class="section-1">
+        <h1 class="slide-in from-left">Mission</h1>
+        <p class="slide-in from-left">Galactic Academy is an advocacy and research organization for the scientific revolution of
+          space exploration and colonization. Our primary objective is to promote courage and audacity
+          to invest in long term technological innovations to overcome inevitable complications including
+          overpopulation and natural resource depletion. With the availability of extra-terrestrial entities
+          upon outer-space itself, we strive to support the ultimate mission of an interplanetary human society.</p>
+
+        <div class="btn-container slide-in from-left">
+          <a href="mission.html" class="hyper-btn">READ MORE</a>
+        </div>
+
+
+
+      </div>
+      <div class="space"></div>
+      <div class="section-2 slide-in from-right">
+        <img src="assets/images/rocket-ship-launch.png" alt="">
+      </div>
+
+
+    </div>
+
+    <div class="mars-container section-parent">
+      <div class="inner-container">
+        <h1 class="slide-in from-right">EXPLORE MARS</h1>
+        <p class="slide-in from-right">The Red Planet is one of the most Earth-like planets, possessing a plausible potential
+          to enact as humanity’s first terraformed planet. Many space agencies are innovating aerospace technologies to conduct
+          the first manned mission to Mars, after the Curiosity rover was deployed above the Martian surface in 2012. With
+          these goals being set, it is crucial for scientists to preemptively fathom the particular nature of its terrene.</p>
+        <div class="btn-container slide-in from-right">
+          <a href="mars.html" class="hyper-btn">READ MORE</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="rocket-container section-parent">
+      <div class="inner-container">
+        <h1 class="slide-in from-left">THE NATURE OF PROPULSION</h1>
+        <p class="slide-in from-left">Spacecrafts implement powerful rockets which propel their cumbersome weight from
+          the Earth’s gravitational force. These rockets cause chemical potential energy to be converted into a propulsion
+          which possesses a sufficient amount of kinetic energy to escape the planet’s atmosphere into the depths of outer space.</p>
+        <div class="btn-container slide-in from-left">
+          <a href="https://www.youtube.com/watch?v=1yBwWLunlOM" target="_blank" class="hyper-btn">WATCH</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-content section-parent">
+      <div class="section section-1">
+        <div class="inner-container">
+          <div class="inner-div slide-in from-bottom">
+            <h1>INNOVATION</h1>
+            <span class="line"></span>
+            <p>Innovating aerospace technologies to overcome various extra-terrestrial challenges initializes the
+              elaborating process of space exploration and colonization.</p>
+            <div class="btn-container">
+              <a href="innovation.html" class="hyper-btn">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section-2">
+        <div class="inner-container">
+          <div class="inner-div slide-in from-bottom">
+            <h1>EXPLORATION</h1>
+            <span class="line"></span>
+            <p>Exploring the foreign surfaces of various celestial bodies allows for a thorough and rigorous investigation
+              upon its environmental conditions and plausibility of terraformation.</p>
+            <div class="btn-container">
+              <a href="explore.html" class="hyper-btn">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section-3">
+        <div class="inner-container">
+          <div class="inner-div slide-in from-bottom">
+            <h1>COLONIZATION</h1>
+            <span class="line"></span>
+            <p>Colonizing and terraforming an extra-terrestrial body involves the transfer of life from Earth such that a
+              systemized human community is able to thrive within the foreign lands.</p>
+            <div class="btn-container">
+              <a href="spaceflight.html" class="hyper-btn">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="footer">
+      <div class="section-1">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt=""></a>
+        </div>
+        <div class="contact-section">
+          <p><b>Contact Links</b></p>
+          <div class="contact-links">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="mailto:support@galacticacademy.com"><i class="fas fa-envelope-square" id="last-item"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+      <span class="footer-line"></span>
+      <div class="section-2">
+        <div class="copyright">
+          <p>Copyright &copy; 2020 | Galactic Academy. All Rights Reserved. </p>
+          <script type="text/javascript">
+          </script>
+        </div>
+        <div class="address">
+          <p>Galactic Academy HQ</p>
+          <p>Jalan Meruya Utara No. 71</p>
+          <p>Jakarta Barat 11510</p>
+          <p>Indonesia</p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <!--JavaScript-->
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/observer.js"></script>
+
+
+
+
+
+  </body>
+</html>
+
+<!--
+
+Image Resources:
+
+https://www.forbes.com/sites/jonathanocallaghan/2018/12/28/space-in-2019-here-are-all-the-missions-and-launches-to-look-forward-to/#c36a959150ff
+
+https://www.space.com/dyson-sphere.html
+
+https://scienews.com/space/5719-why-the-americans-did-not-fly-to-the-moon-more-than-45-years-since-the.html
+
+https://id.pinterest.com/pin/393431717446414288/
+
+https://id.pinterest.com/pin/141019032068590790/
+
+https://www.deviantart.com/droot1986/art/Mass-Effect-3-Mars-Dreamscene-292385250
+
+https://www.deviantart.com/jedgraph/art/Moon-station-06-752737193
+
+https://www.space.com/24942-spacex-ready-air-force-launches.html
+
+https://www.pewresearch.org/fact-tank/2015/07/14/5-facts-about-americans-views-on-space-exploration/
+
+http://pngimg.com/imgs/nature/mars_planet/
+
+https://id.pinterest.com/pin/675610381577562913/
+
+https://pngio.com/PNG/a33206-planet-venus-png.html
+
+https://www.accuweather.com/en/weather-news/powerful-falcon-heavy-mega-rocket-to-blast-off-from-florida-thursday-with-better-weather-expected/332989
+
+https://nl.pinterest.com/pin/73042825192580235/
+
+https://www.pngkey.com/maxpic/u2q8y3i1i1w7i1w7/
+
+https://www.axios.com/how-to-watch-spacex-launch-bed5f70a-4af4-4114-9f71-dc3eb223c44e.html
+
+https://monitor.co.id/2018/10/04/sputnik-1-meluncur-kompetisi-antariksa-dimulai/
+
+https://solarsystem.nasa.gov/news/285/10-things-to-know-about-explorer-1-americas-first-satellite/
+
+https://www.10news.com/re-live-the-apollo-11-moon-landing-through-these-historical-photos
+
+ https://www.amazon.com/Dragon-Models-72-Apollo-Soyuz/dp/B0084N11H6
+
+https://www.tapsmart.com/apps/review-iss-live-video-stream-hd-video-from-the-international-space-station-on-your-iphone/
+
+https://www.jpl.nasa.gov/news/news.php?release=2012-317
+
+https://hdqwalls.com/download/1920x1080/astronaut-5k
+
+https://wallpaperaccess.com/space-travel
+
+https://commons.wikimedia.org/wiki/File:Akatsuki_spacecraft_model.png
+
+https://www.space.com/elon-musk-starship-spacex-flights-mars-colony.html
+
+https://wallpapersprinted.com/wallpaper/2/space_exploration_art.html
+
+https://www.theepochtimes.com/the-private-space-race_3442574.html
+
+https://commons.wikimedia.org/wiki/File:Mars_Exploration_Rover_spacecraft_model.png
+
+https://www.haleymarketing.com/2018/07/19/staffing-customer-experience-competitive-advantage/space-exploration-background-mixed-media/
+
+https://osgblog.com/2019/01/02/reaching-new-heights/
+
+https://www.wallpapertip.com/wpic/bJRJoi_cool-wallpapers-of-space-colonization-of-a-planet/
+
+http://www.pngall.com/satellite-png/download/2642
+
+https://www.geekwire.com/2019/moon-2069-space-officials-share-visions-future-lunar-lifestyles/
+
+https://id.pinterest.com/pin/280771358004558738/
+
+https://www.humanmars.net/2018/05/concept-art-for-martian-by-steve-burg.html
+
+https://wall.alphacoders.com/by_sub_category.php?id=229280&name=Europa+Wallpapers
+
+
+
+-->

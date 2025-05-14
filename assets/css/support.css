@@ -1,0 +1,447 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+}
+
+h3 {
+  color: #FFFFFF;
+
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.mission-banner {
+  min-height: 680px;
+  margin-top: 80px;
+  background: url("../images/space-exploration-support.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+  text-align: center;
+}
+
+.mission-banner h1 {
+  font-size: 100px;
+}
+
+.mission-banner p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+}
+
+.mission-banner .inner-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mission-banner h1 {
+  animation: float 0.5s ease-in-out;
+}
+
+.mission-banner p {
+  animation: float-long 0.8s ease-in-out;
+}
+
+@keyframes float {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes float-long {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  37.5% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+.overcoming-space {
+  text-align: center;
+  padding: 120px 240px;
+  background: url("../images/overcoming-space.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overcoming-space h1 {
+  font-size: 46px;
+}
+
+.overcoming-space p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.starlink-container {
+  min-height: 700px;
+  background: url("../images/audience-contribution.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+
+}
+
+.starlink-container#mission-accom {
+  background: url("../images/mission-accomplished.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.starlink-container .inner-container {
+  width: 40%;
+}
+
+.starlink-container#mission-accom .inner-container {
+  float: right;
+}
+
+
+.starlink-container h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+
+}
+
+.starlink-container p {
+  padding: 20px 0;
+  padding-bottom: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+
+}
+
+.starlink-container h3 {
+  padding-bottom: 10px;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+#signup {
+  flex: 1;
+  height: 100%;
+
+}
+
+.image-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box img {
+  width: 80%;
+  min-width: 500px;
+}
+
+#container form {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  padding-left: 8%;
+}
+
+#signup h1 {
+  padding: 5%;
+  padding-left: 8%;
+  padding-bottom: 0;
+}
+
+#signup p {
+  font-size: 16px;
+  padding: 5%;
+  padding-left: 8%;
+  padding-top: 20px;
+
+}
+
+.box {
+  margin-bottom: 40px;
+}
+
+.reg {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #7A7A7A;
+  outline: none;
+  padding-left: 5px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+#container label {
+  color: #FFFFFF;
+  font-size: 16px;
+  position: relative;
+  bottom: 30px;
+  transition: 0.3s;
+}
+
+#container .reg:focus ~ label,
+#container .reg:valid ~ label {
+  transition: 0.3s;
+  bottom: 55px;
+}
+
+input[type=submit] {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  padding: 15px 30px;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  outline: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  color: #000000;
+  background: #FFFFFF;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .overcoming-space {
+    padding: 120px 150px;
+  }
+
+  .overcoming-space h1 {
+    font-size: 40px;
+  }
+
+  .overcoming-space p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+
+  .starlink-container p {
+    font-size: 14px;
+    line-height: 25px;
+
+  }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .starlink-container {
+    min-height: 600px;
+    padding: 100px 50px 0px 50px;
+  }
+
+  .starlink-container .inner-container {
+    width: 50%;
+  }
+
+  #container {
+    display: block;
+  }
+
+  #container form {
+    padding-right: 8%;
+  }
+
+  #signup {
+    margin-bottom: 50px;
+  }
+
+  #signup h1 {
+    font-size: 36px;
+    padding-right: 8%;
+  }
+
+  #signup p {
+    font-size: 15px;
+    padding-right: 8%;
+
+  }
+
+  .submit-btn {
+    text-align: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 860px) {
+
+  .mission-banner {
+    margin-top: 60px;
+    min-height: 540px;
+  }
+
+  .mission-banner h1 {
+    font-size: 80px;
+  }
+
+  .mission-banner p {
+    font-size: 24px;
+  }
+
+  .mission-banner .inner-container {
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+  }
+
+  .overcoming-space {
+    padding: 80px 100px;
+  }
+
+  .overcoming-space h1 {
+    font-size: 36px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .mission-banner h1 {
+    font-size: 72px;
+  }
+
+  .mission-banner p {
+    font-size: 22px;
+  }
+
+  .overcoming-space {
+    padding: 100px 60px;
+  }
+
+  .starlink-container {
+    background-position: -100px -50px;
+    background-size: 150%;
+    min-height: 400px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+
+  }
+
+  .starlink-container .inner-container {
+    width: 65%;
+  }
+
+  .image-box img {
+    min-width: 100px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .starlink-container {
+    background-position: -200px -50px;
+    background-size: 200%;
+    min-height: 400px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  .starlink-container h3 {
+    font-size: 14px;
+    text-align: center;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .starlink-container .btn-container {
+    text-align: center;
+  }
+
+  .starlink-container .inner-container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .overcoming-space {
+    padding: 80px 30px;
+  }
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 240%;
+    min-height: 500px;
+    padding: 40px 50px 0px 50px;
+  }
+
+}

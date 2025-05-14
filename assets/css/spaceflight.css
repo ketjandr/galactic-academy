@@ -1,0 +1,391 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+}
+
+h3 {
+  color: #FFFFFF;
+
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.mission-banner {
+  min-height: 680px;
+  margin-top: 80px;
+  background: url("../images/spaceflight-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+  text-align: center;
+}
+
+.mission-banner h1 {
+  font-size: 100px;
+}
+
+.mission-banner p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+}
+
+.mission-banner .inner-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mission-banner h1 {
+  animation: float 0.5s ease-in-out;
+}
+
+.mission-banner p {
+  animation: float-long 0.8s ease-in-out;
+}
+
+@keyframes float {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes float-long {
+
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  37.5% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+}
+
+.multiplanet-container {
+  display: flex;
+  align-items: center;
+}
+
+.multiplanet-container .content-box {
+  padding: 100px 50px;
+  flex: 3;
+}
+
+.multiplanet-container .content-box p {
+  font-size: 18px;
+  padding-top: 15px;
+  line-height: 30px;
+}
+
+.multiplanet-container .image-box {
+  flex: 2;
+  padding-right: 30px;
+
+}
+
+.multiplanet-container .image-box img {
+  width: 100%;
+  min-width: 527px;
+
+}
+
+.para-container {
+  width: 100%;
+}
+
+.para-container .parallax {
+  background: url("../images/mars-launch-civil-bg.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 650px;
+}
+
+.extraterrestrial-travel {
+  display: flex;
+  align-items: center;
+
+}
+
+.extraterrestrial-travel .content-box {
+  padding: 100px 50px;
+  flex: 3;
+}
+
+.extraterrestrial-travel .content-box p {
+  font-size: 18px;
+  padding-top: 15px;
+  line-height: 30px;
+}
+
+.extraterrestrial-travel .image-box {
+  flex: 2;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.extraterrestrial-travel .image-box img {
+  width: 70%;
+  min-width: 300px;
+
+}
+
+
+.starlink-container {
+  min-height: 600px;
+  background: url("../images/domestic-spaceflight.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 50px 50px 50px;
+
+}
+
+.starlink-container#advanced-civil {
+  background: url("../images/advanced-civilization-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.starlink-container .inner-container {
+  float: right;
+  width: 40%;
+}
+
+.starlink-container#advanced-civil .inner-container {
+  float: left;
+}
+
+
+.starlink-container h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+
+}
+
+.starlink-container p {
+  padding: 20px 0;
+  padding-bottom: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+
+.starlink-container h3 {
+  padding-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .multiplanet-container .content-box p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .multiplanet-container .image-box img {
+    width: 100%;
+    min-width: 400px;
+
+  }
+
+  .extraterrestrial-travel .content-box p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .extraterrestrial-travel .image-box img {
+    min-width: 300px;
+
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .starlink-container {
+    min-height: 500px;
+    padding: 100px 50px 0px 50px;
+  }
+
+  .starlink-container .inner-container {
+    width: 50%;
+  }
+
+
+}
+
+@media screen and (max-width: 930px) {
+
+  .multiplanet-container .image-box {
+    display: none;
+
+  }
+
+  .multiplanet-container .content-box {
+    text-align: center;
+  }
+
+  .extraterrestrial-travel .image-box {
+    display: none;
+
+  }
+
+  .extraterrestrial-travel .content-box {
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 860px) {
+
+  .mission-banner {
+    margin-top: 60px;
+    min-height: 540px;
+  }
+
+  .mission-banner h1 {
+    font-size: 80px;
+  }
+
+  .mission-banner p {
+    font-size: 24px;
+  }
+
+  .mission-banner .inner-container {
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .mission-banner h1 {
+    font-size: 72px;
+  }
+
+  .mission-banner p {
+    font-size: 22px;
+  }
+
+  .starlink-container {
+    background-position: -250px -50px;
+    background-size: 150%;
+    min-height: 400px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+
+  }
+
+  .starlink-container .inner-container {
+    width: 65%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 200%;
+    min-height: 400px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .starlink-container h1 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  .starlink-container h3 {
+    font-size: 14px;
+    text-align: center;
+
+  }
+
+  .starlink-container p {
+    padding: 20px 0;
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .starlink-container .btn-container {
+    text-align: center;
+  }
+
+  .starlink-container .inner-container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .mission-banner h1 {
+    font-size: 64px;
+  }
+
+  .mission-banner p {
+    font-size: 18px;
+  }
+
+  .starlink-container {
+    background-position: -400px -50px;
+    background-size: 240%;
+    min-height: 460px;
+    padding: 40px 50px 0px 50px;
+  }
+
+}

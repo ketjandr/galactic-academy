@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="description" content="Galactic Academy is a advocacy and research organization for the
+    scientific revolution of space exploration and colonization.">
+    <meta name="author" content="Kenzo Eugenio Tjandra">
+    <title>Moon | Galactic Academy</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/galactic-academy-icon.png">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
+    <link rel="stylesheet" href="assets/css/planets.css">
+    <link rel="stylesheet" href="assets/css/observer.css">
+    <script src="https://kit.fontawesome.com/c65eeb7523.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <input type="checkbox" id="check" onclick="validate()">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt="" id="nav-img"></a>
+        <ul id="nav-ul">
+          <li><a href="about.html">About</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="spaceflight.html">Spaceflight</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+
+    <div class="mission-banner" id="moon-bg">
+      <div class="inner-container">
+        <h1 class="fade-text">THE MOON</h1>
+        <p class="fade-text">The Lunar Ambiance</p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        $(".fade-text").css("opacity", 1 - $(window).scrollTop() / 250);
+      });
+    </script>
+
+    <div class="company-overview section-parent">
+      <h1 class="slide-in from-left">OVERVIEW</h1>
+      <p class="slide-in from-left">The moon is Earth’s one and only natural satellite which remains as the fifth largest
+        moon within the solar system. Its surface was a result upon a giant-impact of Earth and a small planet, allowing for
+        a collision where its debris are attracted to the Earth’s gravitational force, resulting in a sustained orbit.
+        The moon itself causes many events which affect Earth, including predictable rises and falls of the sea level
+        and causing Earth to experience a slight deceleration in its rotational speed, where days tend to increase by
+        2.3 milliseconds per century. Constructing a human colony on the moon might just be one of the greatest achievements
+        and beginnings of human space colonization, as by extracting valuable resources from its surfaces, mankind are able
+        to easily construct revolutionary rockets for multiplanetary missions. </p>
+
+    </div>
+
+    <div class="planet-container section-parent">
+      <div class="image-box slide-in from-left">
+        <img src="assets/images/lunar-moon.png" alt="">
+      </div>
+
+      <div class="content-box slide-in from-right">
+        <h1>MOON EVALUATION</h1>
+        <div class="stat-box">
+          <h2>DISTANCE TO EARTH</h2>
+          <h2 class="measurement">384,400 KM</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>DIAMETER</h2>
+          <h2 class="measurement">3,474 KM</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>OXYGEN LEVEL</h2>
+          <h2 class="measurement">40%</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>GRAVITY</h2>
+          <h2 class="measurement">1.62 m/s²</h2>
+        </div>
+        <span></span>
+        <div class="stat-box">
+          <h2>DAY LENGTH</h2>
+          <h2 class="measurement">27 Earth Days</h2>
+        </div>
+        <span></span>
+
+
+      </div>
+
+    </div>
+
+    <div class="starlink-container section-parent" id="artemis-bg">
+      <div class="inner-container">
+        <h3 class="slide-in from-right">NASA MOON MISSION</h3>
+        <h1 class="slide-in from-right">ARTEMIS PROGRAM</h1>
+        <p class="slide-in from-right">NASA’s Artemis Program aims to launch manned missions to the moon in hopes of
+          terraforming its environmental conditions such that minor human colonies could be
+          established. This mission highlights the importance of the moon as a natural satellite to the ambitious goals
+          of human multiplanetary colonization, as establishing a colony requires a considerable amount of energy and
+          resources.</p>
+        <div class="btn-container slide-in from-right">
+          <a href="https://www.youtube.com/watch?v=dOKKkV-30dE" class="hyper-btn" target="_blank">WATCH</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="footer">
+      <div class="section-1">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/galactic-academy-logo.png" alt=""></a>
+        </div>
+        <div class="contact-section">
+          <p><b>Contact Links</b></p>
+          <div class="contact-links">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="mailto:support@galacticacademy.com"><i class="fas fa-envelope-square" id="last-item"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <span class="footer-line"></span>
+      <div class="section-2">
+        <div class="copyright">
+          <p>Copyright &copy; 2020 | Galactic Academy. All Rights Reserved. </p>
+          <script type="text/javascript">
+          </script>
+        </div>
+        <div class="address">
+          <p>Galactic Academy HQ</p>
+          <p>Jalan Meruya Utara No. 71</p>
+          <p>Jakarta Barat 11510</p>
+          <p>Indonesia</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--JavaScript-->
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/observer.js"></script>
+
+
+
+
+
+  </body>
+</html>
